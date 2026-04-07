@@ -1,0 +1,40 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            font-size: 18px;
+            margin: 0;
+            padding: 25px;
+            color: black;
+            background-color: #ffffff;
+}
+
+h1 {
+    color: #003847;
+    text-align: center;
+    text-decoration: underline double;
+    text-decoration-thickness: 2px;
+
+}
+
+h2 {
+    color: #003847;
+    text-decoration: underline double;
+    text-decoration-thickness: 1px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.header {
+    text-align: center;
+}
+
+p.contact {
+    font-weight: 500;
+}
+
+ul li {
+    list-style: circle;
+
+}
