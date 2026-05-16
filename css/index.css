@@ -1,0 +1,89 @@
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            font-size: 18px;
+            margin: 0;
+            padding: 25px;
+            color: black;
+            background-color: #ffffff;
+            
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    font-family: monospace;
+}
+
+h1 {
+    color: #003847;
+    text-align: center;
+    text-decoration: underline double;
+    text-decoration-thickness: 2px;
+
+}
+
+h2 {
+    color: #003847;
+    text-decoration: underline double;
+    text-decoration-thickness: 1px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.header {
+    text-align: center;
+}
+
+p.contact {
+    font-weight: 500;
+}
+
+ul li {
+    list-style: circle;
+
+}
+
+
+.travel {
+    border-style: dotted; 
+    border-color: rgb(128, 128, 166);
+    border-width: 2px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.togo {
+     border-style: dotted; 
+    border-color: rgb(128, 128, 166);
+    border-width: 2px;
+    padding: 30px;
+    margin: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .container {
+       display: flex;
+        gap: 20px;
+    }  
+    
+    
+    .container1 {
+    display: flex;
+    flex-direction: row;
+    
+
+    }
+
+
+    .travel {
+    flex: 1;
+    }
+
+    .togo {
+    flex: 1;
+    }
+}
